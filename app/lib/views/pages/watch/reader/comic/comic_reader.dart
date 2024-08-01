@@ -1,14 +1,14 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/models/extension.dart';
-import 'package:miru_app/views/pages/watch/reader/comic/comic_reader_content.dart';
-import 'package:miru_app/views/pages/watch/reader/comic/comic_reader_settings.dart';
-import 'package:miru_app/controllers/watch/comic_controller.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/models/extension.dart';
+import 'package:mediabox/views/pages/watch/reader/comic/comic_reader_content.dart';
+import 'package:mediabox/views/pages/watch/reader/comic/comic_reader_settings.dart';
+import 'package:mediabox/controllers/watch/comic_controller.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 
 // import 'package:miru_app/views/pages/watch/reader/comic/comic_zoom.dart';
-import 'package:miru_app/data/services/extension_service.dart';
-import 'package:miru_app/views/widgets/watch/reader_view.dart';
+import 'package:mediabox/data/services/extension_service.dart';
+import 'package:mediabox/views/widgets/watch/reader_view.dart';
 import 'package:window_manager/window_manager.dart';
 
 class ComicReader extends StatefulWidget {

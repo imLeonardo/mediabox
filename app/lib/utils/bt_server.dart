@@ -3,13 +3,13 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/data/providers/bt_server_provider.dart';
-import 'package:miru_app/controllers/bt_dialog_controller.dart';
-import 'package:miru_app/controllers/main_controller.dart';
-import 'package:miru_app/utils/application.dart';
-import 'package:miru_app/utils/log.dart';
-import 'package:miru_app/utils/miru_directory.dart';
-import 'package:miru_app/utils/request.dart';
+import 'package:mediabox/data/providers/bt_server_provider.dart';
+import 'package:mediabox/controllers/bt_dialog_controller.dart';
+import 'package:mediabox/controllers/main_controller.dart';
+import 'package:mediabox/utils/application.dart';
+import 'package:mediabox/utils/log.dart';
+import 'package:mediabox/utils/miru_directory.dart';
+import 'package:mediabox/utils/request.dart';
 import 'package:path/path.dart' as path;
 
 class BTServerUtils {

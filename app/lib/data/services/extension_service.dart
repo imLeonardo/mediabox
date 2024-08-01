@@ -6,18 +6,18 @@ import 'package:flutter_js/extensions/fetch.dart';
 import 'package:get/get.dart';
 import 'package:html/dom.dart';
 import 'package:html/parser.dart';
-import 'package:miru_app/data/services/extension_jscore_plugin.dart';
-import 'package:miru_app/utils/log.dart';
-import 'package:miru_app/utils/miru_storage.dart';
-import 'package:miru_app/utils/request.dart';
+import 'package:mediabox/data/services/extension_jscore_plugin.dart';
+import 'package:mediabox/utils/log.dart';
+import 'package:mediabox/utils/miru_storage.dart';
+import 'package:mediabox/utils/request.dart';
 import 'package:xpath_selector_html_parser/xpath_selector_html_parser.dart';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_js/flutter_js.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/data/services/database_service.dart';
-import 'package:miru_app/utils/extension.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/data/services/database_service.dart';
+import 'package:mediabox/utils/extension.dart';
 import 'package:flutter_js/javascriptcore/jscore_runtime.dart';
 
 class ExtensionService {

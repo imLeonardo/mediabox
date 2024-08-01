@@ -1,6 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/material.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 
 class SettingsTile extends StatefulWidget {
   const SettingsTile({

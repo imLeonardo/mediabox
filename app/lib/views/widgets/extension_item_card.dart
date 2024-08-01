@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/views/pages/detail_page.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/views/widgets/grid_item_tile.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/pages/detail_page.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/views/widgets/grid_item_tile.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 
 class ExtensionItemCard extends StatefulWidget {
   const ExtensionItemCard({

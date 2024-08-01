@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:miru_app/utils/color.dart';
-import 'package:miru_app/views/widgets/cache_network_image.dart';
+import 'package:mediabox/utils/color.dart';
+import 'package:mediabox/views/widgets/cache_network_image.dart';
 
 class Cover extends StatelessWidget {
   const Cover({

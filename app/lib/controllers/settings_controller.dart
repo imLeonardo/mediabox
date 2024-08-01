@@ -4,8 +4,8 @@ import 'dart:convert';
 import 'package:desktop_multi_window/desktop_multi_window.dart';
 import 'package:flutter_js/flutter_js.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/utils/request.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/utils/request.dart';
 
 class SettingsController extends GetxController {
   final contributors = [].obs;

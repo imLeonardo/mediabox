@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:flutter_windows_webview/flutter_windows_webview.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/data/providers/anilist_provider.dart';
-import 'package:miru_app/utils/miru_storage.dart';
-import 'package:miru_app/views/pages/tracking/anilist_webview.dart';
+import 'package:mediabox/data/providers/anilist_provider.dart';
+import 'package:mediabox/utils/miru_storage.dart';
+import 'package:mediabox/views/pages/tracking/anilist_webview.dart';
 
 class TrackingPageController extends GetxController {
   final anilistIsLogin = false.obs;

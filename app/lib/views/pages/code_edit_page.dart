@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_code_editor/flutter_code_editor.dart';
-import 'package:miru_app/models/extension.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/views/widgets/messenger.dart';
+import 'package:mediabox/models/extension.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/views/widgets/messenger.dart';
 import 'package:highlight/languages/javascript.dart';
 import 'package:flutter_highlight/themes/monokai-sublime.dart';
 

@@ -5,11 +5,11 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:media_kit/media_kit.dart';
 import 'package:media_kit_video/media_kit_video.dart';
-import 'package:miru_app/controllers/watch/video_controller.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/cache_network_image.dart';
-import 'package:miru_app/views/widgets/watch/playlist.dart';
+import 'package:mediabox/controllers/watch/video_controller.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/cache_network_image.dart';
+import 'package:mediabox/views/widgets/watch/playlist.dart';
 import 'package:window_manager/window_manager.dart';
 
 class VideoPlayerDesktopControls extends StatefulWidget {

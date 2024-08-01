@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/controllers/watch/novel_controller.dart';
-import 'package:miru_app/views/pages/watch/reader/novel/novel_reader_content.dart';
-import 'package:miru_app/views/pages/watch/reader/novel/novel_reader_settings.dart';
-import 'package:miru_app/views/widgets/watch/reader_view.dart';
-import 'package:miru_app/data/services/extension_service.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/controllers/watch/novel_controller.dart';
+import 'package:mediabox/views/pages/watch/reader/novel/novel_reader_content.dart';
+import 'package:mediabox/views/pages/watch/reader/novel/novel_reader_settings.dart';
+import 'package:mediabox/views/widgets/watch/reader_view.dart';
+import 'package:mediabox/data/services/extension_service.dart';
 
 class NovelReader extends StatefulWidget {
   const NovelReader({

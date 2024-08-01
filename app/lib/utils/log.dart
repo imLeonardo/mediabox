@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:logging/logging.dart';
-import 'package:miru_app/utils/miru_directory.dart';
-import 'package:miru_app/utils/miru_storage.dart';
+import 'package:mediabox/utils/miru_directory.dart';
+import 'package:mediabox/utils/miru_storage.dart';
 import 'package:path/path.dart' as path;
 
 final logger = Logger('Miru');

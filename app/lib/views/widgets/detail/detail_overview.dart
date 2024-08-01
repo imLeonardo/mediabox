@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/data/providers/tmdb_provider.dart';
-import 'package:miru_app/controllers/detail_controller.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/cache_network_image.dart';
+import 'package:mediabox/data/providers/tmdb_provider.dart';
+import 'package:mediabox/controllers/detail_controller.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/cache_network_image.dart';
 
 class DetailOverView extends StatelessWidget {
   const DetailOverView({

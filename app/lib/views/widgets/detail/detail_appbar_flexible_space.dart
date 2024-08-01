@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/controllers/detail_controller.dart';
-import 'package:miru_app/views/widgets/detail/detail_continue_play.dart';
-import 'package:miru_app/views/widgets/detail/detail_extension_tile.dart';
-import 'package:miru_app/views/widgets/detail/detail_favorite_button.dart';
-import 'package:miru_app/views/widgets/cache_network_image.dart';
-import 'package:miru_app/views/widgets/cover.dart';
+import 'package:mediabox/controllers/detail_controller.dart';
+import 'package:mediabox/views/widgets/detail/detail_continue_play.dart';
+import 'package:mediabox/views/widgets/detail/detail_extension_tile.dart';
+import 'package:mediabox/views/widgets/detail/detail_favorite_button.dart';
+import 'package:mediabox/views/widgets/cache_network_image.dart';
+import 'package:mediabox/views/widgets/cover.dart';
 
 class DetailAppbarflexibleSpace extends StatefulWidget {
   const DetailAppbarflexibleSpace({

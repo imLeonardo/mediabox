@@ -6,17 +6,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/data/services/extension_service.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/button.dart';
-import 'package:miru_app/views/widgets/extension_item_card.dart';
-import 'package:miru_app/views/widgets/infinite_scroller.dart';
-import 'package:miru_app/views/widgets/messenger.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
-import 'package:miru_app/views/widgets/search_appbar.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/data/services/extension_service.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/button.dart';
+import 'package:mediabox/views/widgets/extension_item_card.dart';
+import 'package:mediabox/views/widgets/infinite_scroller.dart';
+import 'package:mediabox/views/widgets/messenger.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/widgets/search_appbar.dart';
 
 class ExtensionSearcherPage extends fluent.StatefulWidget {
   const ExtensionSearcherPage({

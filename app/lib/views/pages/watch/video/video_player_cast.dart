@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:dlna_dart/dlna.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/utils/log.dart';
-import 'package:miru_app/views/widgets/progress.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/utils/log.dart';
+import 'package:mediabox/views/widgets/progress.dart';
 
 class VideoPlayerCast extends StatefulWidget {
   const VideoPlayerCast({

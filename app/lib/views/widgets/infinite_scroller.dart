@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 import 'package:easy_refresh/easy_refresh.dart';
 
 class InfiniteScroller extends StatefulWidget {

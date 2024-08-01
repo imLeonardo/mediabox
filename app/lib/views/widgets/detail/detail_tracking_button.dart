@@ -2,15 +2,15 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/controllers/detail_controller.dart';
-import 'package:miru_app/controllers/tracking_page_controller.dart';
-import 'package:miru_app/data/providers/anilist_provider.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/dialogs/anilist_binding_dialog.dart';
-import 'package:miru_app/views/dialogs/anilist_tracking_dialog.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/controllers/detail_controller.dart';
+import 'package:mediabox/controllers/tracking_page_controller.dart';
+import 'package:mediabox/data/providers/anilist_provider.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/dialogs/anilist_binding_dialog.dart';
+import 'package:mediabox/views/dialogs/anilist_tracking_dialog.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 
 class DetailTrackingButton extends StatefulWidget {

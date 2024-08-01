@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:miru_app/views/widgets/cover.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/widgets/cover.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 
 class GridItemTile extends StatefulWidget {
   const GridItemTile({

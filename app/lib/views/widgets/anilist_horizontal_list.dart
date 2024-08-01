@@ -1,15 +1,15 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/views/pages/search/search_page.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/data/providers/anilist_provider.dart';
-import 'package:miru_app/views/widgets/horizontal_list.dart';
-import 'package:miru_app/views/widgets/grid_item_tile.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/views/pages/search/search_page.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/data/providers/anilist_provider.dart';
+import 'package:mediabox/views/widgets/horizontal_list.dart';
+import 'package:mediabox/views/widgets/grid_item_tile.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/controllers/search_controller.dart';
-import 'package:miru_app/views/pages/tracking/anilist_more_page.dart';
+import 'package:mediabox/controllers/search_controller.dart';
+import 'package:mediabox/views/pages/tracking/anilist_more_page.dart';
 
 class AnilistHorizontalList extends StatefulWidget {
   const AnilistHorizontalList({

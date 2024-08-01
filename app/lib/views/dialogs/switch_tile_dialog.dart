@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:miru_app/utils/i18n.dart';
+import 'package:mediabox/utils/i18n.dart';
 
 class SwitchTileDialog<T> extends StatefulWidget {
   const SwitchTileDialog({

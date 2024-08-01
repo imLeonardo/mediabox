@@ -2,9 +2,9 @@ import 'dart:convert';
 
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/utils/miru_storage.dart';
-import 'package:miru_app/utils/request.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/utils/miru_storage.dart';
+import 'package:mediabox/utils/request.dart';
 
 class ExtensionRepoPageController extends GetxController {
   List<dynamic> extensions = <dynamic>[].obs;

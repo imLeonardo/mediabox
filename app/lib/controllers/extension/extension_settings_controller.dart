@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import 'package:miru_app/models/extension_setting.dart';
-import 'package:miru_app/data/services/database_service.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/data/services/extension_service.dart';
+import 'package:mediabox/models/extension_setting.dart';
+import 'package:mediabox/data/services/database_service.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/data/services/extension_service.dart';
 
 class ExtensionSettingsPageController extends GetxController {
   ExtensionSettingsPageController(this.package);

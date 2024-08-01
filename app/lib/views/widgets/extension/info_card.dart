@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 
 class InfoCard extends StatelessWidget {
   const InfoCard({

@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/controllers/bt_dialog_controller.dart';
-import 'package:miru_app/utils/bt_server.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/button.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
-import 'package:miru_app/views/widgets/progress.dart';
+import 'package:mediabox/controllers/bt_dialog_controller.dart';
+import 'package:mediabox/utils/bt_server.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/button.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/widgets/progress.dart';
 
 class BTDialog extends StatefulWidget {
   const BTDialog({super.key});

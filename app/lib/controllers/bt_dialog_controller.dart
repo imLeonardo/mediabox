@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/scheduler.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/controllers/main_controller.dart';
-import 'package:miru_app/utils/bt_server.dart';
-import 'package:miru_app/views/widgets/messenger.dart';
+import 'package:mediabox/controllers/main_controller.dart';
+import 'package:mediabox/utils/bt_server.dart';
+import 'package:mediabox/views/widgets/messenger.dart';
 
 class BTDialogController extends GetxController {
   final isInstalled = false.obs;

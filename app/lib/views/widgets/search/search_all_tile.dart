@@ -1,11 +1,11 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:miru_app/controllers/search_controller.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/extension_item_card.dart';
-import 'package:miru_app/views/widgets/horizontal_list.dart';
-import 'package:miru_app/views/widgets/progress.dart';
+import 'package:mediabox/controllers/search_controller.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/extension_item_card.dart';
+import 'package:mediabox/views/widgets/horizontal_list.dart';
+import 'package:mediabox/views/widgets/progress.dart';
 
 class SearchAllTile extends StatefulWidget {
   const SearchAllTile({

@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:get/get.dart';
 import 'package:media_kit/media_kit.dart';
-import 'package:miru_app/controllers/watch/video_controller.dart';
-import 'package:miru_app/utils/color.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/list_title.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
-import 'package:miru_app/views/widgets/watch/playlist.dart';
+import 'package:mediabox/controllers/watch/video_controller.dart';
+import 'package:mediabox/utils/color.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/list_title.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/widgets/watch/playlist.dart';
 
 enum SidebarTab {
   episodes,

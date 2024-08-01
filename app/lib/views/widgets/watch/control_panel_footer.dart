@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/controllers/watch/reader_controller.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/button.dart';
+import 'package:mediabox/controllers/watch/reader_controller.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/button.dart';
 
 class ControlPanelFooter<T extends ReaderController> extends StatelessWidget {
   const ControlPanelFooter(this.tag, {super.key});

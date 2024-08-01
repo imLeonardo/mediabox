@@ -1,7 +1,7 @@
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/material.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 
 class HorizontalList extends StatefulWidget {
   const HorizontalList({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/utils/miru_storage.dart';
+import 'package:mediabox/utils/miru_storage.dart';
 
 class ApplicationController extends GetxController {
   static get find => Get.find();

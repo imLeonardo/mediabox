@@ -2,16 +2,16 @@ import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:go_router/go_router.dart';
-import 'package:miru_app/views/pages/extension/extension_page.dart';
-import 'package:miru_app/views/pages/home_page.dart';
-import 'package:miru_app/controllers/main_controller.dart';
-import 'package:miru_app/views/pages/search/search_page.dart';
-import 'package:miru_app/views/pages/settings/settings_page.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/application.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/utils/layout.dart';
-import 'package:miru_app/utils/miru_storage.dart';
+import 'package:mediabox/views/pages/extension/extension_page.dart';
+import 'package:mediabox/views/pages/home_page.dart';
+import 'package:mediabox/controllers/main_controller.dart';
+import 'package:mediabox/views/pages/search/search_page.dart';
+import 'package:mediabox/views/pages/settings/settings_page.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/application.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/utils/layout.dart';
+import 'package:mediabox/utils/miru_storage.dart';
 import 'package:window_manager/window_manager.dart';
 
 class DesktopMainPage extends StatefulWidget {

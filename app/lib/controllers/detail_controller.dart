@@ -8,20 +8,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:flutter_windows_webview/flutter_windows_webview.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/data/providers/tmdb_provider.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/views/dialogs/tmdb_binding.dart';
-import 'package:miru_app/controllers/home_controller.dart';
-import 'package:miru_app/controllers/main_controller.dart';
-import 'package:miru_app/views/pages/watch/watch_page.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/data/services/database_service.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/data/services/extension_service.dart';
-import 'package:miru_app/utils/external_player.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/utils/miru_storage.dart';
-import 'package:miru_app/views/widgets/messenger.dart';
+import 'package:mediabox/data/providers/tmdb_provider.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/views/dialogs/tmdb_binding.dart';
+import 'package:mediabox/controllers/home_controller.dart';
+import 'package:mediabox/controllers/main_controller.dart';
+import 'package:mediabox/views/pages/watch/watch_page.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/data/services/database_service.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/data/services/extension_service.dart';
+import 'package:mediabox/utils/external_player.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/utils/miru_storage.dart';
+import 'package:mediabox/views/widgets/messenger.dart';
 
 class DetailPageController extends GetxController {
   DetailPageController({

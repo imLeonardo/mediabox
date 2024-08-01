@@ -4,8 +4,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:isar/isar.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/utils/miru_directory.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/utils/miru_directory.dart';
 import 'package:path/path.dart' as p;
 
 class MiruStorage {

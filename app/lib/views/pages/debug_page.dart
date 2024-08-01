@@ -6,8 +6,8 @@ import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter/material.dart' as material;
 import 'package:flutter_code_editor/flutter_code_editor.dart';
 import 'package:flutter_highlight/themes/monokai-sublime.dart';
-import 'package:miru_app/models/extension.dart';
-import 'package:miru_app/views/widgets/debug/extension_log_tile.dart';
+import 'package:mediabox/models/extension.dart';
+import 'package:mediabox/views/widgets/debug/extension_log_tile.dart';
 import 'package:highlight/languages/json.dart';
 
 // 待执行的方法

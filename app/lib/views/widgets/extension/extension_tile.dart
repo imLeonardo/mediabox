@@ -1,14 +1,14 @@
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/models/extension.dart';
-import 'package:miru_app/views/pages/code_edit_page.dart';
-import 'package:miru_app/views/pages/extension/extension_settings_page.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/cache_network_image.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/models/extension.dart';
+import 'package:mediabox/views/pages/code_edit_page.dart';
+import 'package:mediabox/views/pages/extension/extension_settings_page.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/cache_network_image.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:path/path.dart' as path;
 

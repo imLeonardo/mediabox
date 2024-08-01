@@ -2,11 +2,11 @@ import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/views/widgets/watch/playlist.dart';
-import 'package:miru_app/controllers/watch/reader_controller.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/router.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/widgets/watch/playlist.dart';
+import 'package:mediabox/controllers/watch/reader_controller.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/router.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 import 'package:window_manager/window_manager.dart';
 
 class ControlPanelHeader<T extends ReaderController> extends StatefulWidget {

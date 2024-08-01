@@ -2,12 +2,12 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/controllers/main_controller.dart';
-import 'package:miru_app/controllers/search_controller.dart';
-import 'package:miru_app/views/widgets/search/search_all_tile.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/button.dart';
+import 'package:mediabox/controllers/main_controller.dart';
+import 'package:mediabox/controllers/search_controller.dart';
+import 'package:mediabox/views/widgets/search/search_all_tile.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/button.dart';
 
 class SearchAllExtSearch extends StatefulWidget {
   const SearchAllExtSearch({

@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:media_kit_video/media_kit_video.dart';
-import 'package:miru_app/controllers/watch/video_controller.dart';
-import 'package:miru_app/views/pages/watch/video/video_player_desktop_controls.dart';
-import 'package:miru_app/views/pages/watch/video/video_player_mobile_controls.dart';
+import 'package:mediabox/controllers/watch/video_controller.dart';
+import 'package:mediabox/views/pages/watch/video/video_player_desktop_controls.dart';
+import 'package:mediabox/views/pages/watch/video/video_player_mobile_controls.dart';
 
 class VideoPlayerConten extends StatelessWidget {
   const VideoPlayerConten({

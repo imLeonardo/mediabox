@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import 'package:miru_app/models/extension.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/data/services/extension_service.dart';
-import 'package:miru_app/utils/miru_storage.dart';
+import 'package:mediabox/models/extension.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/data/services/extension_service.dart';
+import 'package:mediabox/utils/miru_storage.dart';
 
 class SearchPageController extends GetxController {
   Rx<ExtensionType?> cuurentExtensionType = Rx(null);

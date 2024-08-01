@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:miru_app/models/extension.dart';
-import 'package:miru_app/views/pages/watch/reader/comic/comic_reader.dart';
-import 'package:miru_app/views/pages/watch/reader/novel/novel_reader.dart';
-import 'package:miru_app/views/pages/watch/video/video_player.dart';
-import 'package:miru_app/utils/extension.dart';
+import 'package:mediabox/models/extension.dart';
+import 'package:mediabox/views/pages/watch/reader/comic/comic_reader.dart';
+import 'package:mediabox/views/pages/watch/reader/novel/novel_reader.dart';
+import 'package:mediabox/views/pages/watch/video/video_player.dart';
+import 'package:mediabox/utils/extension.dart';
 
 class WatchPage extends StatelessWidget {
   const WatchPage({

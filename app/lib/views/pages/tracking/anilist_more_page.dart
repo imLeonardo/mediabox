@@ -2,16 +2,16 @@ import 'dart:io';
 
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/material.dart';
-import 'package:miru_app/data/providers/anilist_provider.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/utils/layout.dart';
-import 'package:miru_app/views/pages/search/search_page.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/data/providers/anilist_provider.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/utils/layout.dart';
+import 'package:mediabox/views/pages/search/search_page.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/controllers/search_controller.dart';
-import 'package:miru_app/views/widgets/grid_item_tile.dart';
-import 'package:miru_app/views/widgets/progress.dart';
+import 'package:mediabox/controllers/search_controller.dart';
+import 'package:mediabox/views/widgets/grid_item_tile.dart';
+import 'package:mediabox/views/widgets/progress.dart';
 
 class AnilistMorePage extends StatefulWidget {
   const AnilistMorePage({super.key, required this.anilistType});

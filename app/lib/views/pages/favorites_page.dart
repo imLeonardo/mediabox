@@ -1,13 +1,13 @@
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/material.dart';
 import 'package:flutter_i18n/flutter_i18n.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/data/services/database_service.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/extension_item_card.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
-import 'package:miru_app/views/widgets/progress.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/data/services/database_service.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/extension_item_card.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/widgets/progress.dart';
 
 class FavoritesPage extends fluent.StatefulWidget {
   const FavoritesPage({super.key, required this.type});

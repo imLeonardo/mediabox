@@ -5,17 +5,17 @@ import 'package:desktop_multi_window/desktop_multi_window.dart';
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/models/extension.dart';
-import 'package:miru_app/controllers/extension/extension_controller.dart';
-import 'package:miru_app/controllers/search_controller.dart';
-import 'package:miru_app/controllers/settings_controller.dart';
-import 'package:miru_app/data/services/extension_service.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/utils/miru_directory.dart';
-import 'package:miru_app/utils/request.dart';
-import 'package:miru_app/utils/router.dart';
-import 'package:miru_app/views/widgets/button.dart';
-import 'package:miru_app/views/widgets/messenger.dart';
+import 'package:mediabox/models/extension.dart';
+import 'package:mediabox/controllers/extension/extension_controller.dart';
+import 'package:mediabox/controllers/search_controller.dart';
+import 'package:mediabox/controllers/settings_controller.dart';
+import 'package:mediabox/data/services/extension_service.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/utils/miru_directory.dart';
+import 'package:mediabox/utils/request.dart';
+import 'package:mediabox/utils/router.dart';
+import 'package:mediabox/views/widgets/button.dart';
+import 'package:mediabox/views/widgets/messenger.dart';
 import 'package:path/path.dart' as path;
 
 class ExtensionUtils {

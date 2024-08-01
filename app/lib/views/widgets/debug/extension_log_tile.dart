@@ -1,6 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart';
-import 'package:miru_app/models/extension.dart';
-import 'package:miru_app/views/widgets/cache_network_image.dart';
+import 'package:mediabox/models/extension.dart';
+import 'package:mediabox/views/widgets/cache_network_image.dart';
 
 class ExtensionLogTile extends StatelessWidget {
   const ExtensionLogTile({super.key, required this.log});

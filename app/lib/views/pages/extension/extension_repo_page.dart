@@ -2,14 +2,14 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/models/extension.dart';
-import 'package:miru_app/controllers/extension/extension_repo_controller.dart';
-import 'package:miru_app/views/widgets/extension/extension_card.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/button.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
-import 'package:miru_app/views/widgets/progress.dart';
-import 'package:miru_app/views/widgets/search_appbar.dart';
+import 'package:mediabox/models/extension.dart';
+import 'package:mediabox/controllers/extension/extension_repo_controller.dart';
+import 'package:mediabox/views/widgets/extension/extension_card.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/button.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/widgets/progress.dart';
+import 'package:mediabox/views/widgets/search_appbar.dart';
 
 class ExtensionRepoPage extends StatefulWidget {
   const ExtensionRepoPage({super.key});

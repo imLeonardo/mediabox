@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/models/extension.dart';
-import 'package:miru_app/controllers/watch/video_controller.dart';
-import 'package:miru_app/views/pages/watch/video/video_player_sidebar.dart';
-import 'package:miru_app/views/pages/watch/video/video_player_content.dart';
-import 'package:miru_app/data/services/extension_service.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/models/extension.dart';
+import 'package:mediabox/controllers/watch/video_controller.dart';
+import 'package:mediabox/views/pages/watch/video/video_player_sidebar.dart';
+import 'package:mediabox/views/pages/watch/video/video_player_content.dart';
+import 'package:mediabox/data/services/extension_service.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 
 class VideoPlayer extends StatefulWidget {
   const VideoPlayer({

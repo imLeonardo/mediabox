@@ -3,15 +3,15 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/controllers/tracking_page_controller.dart';
-import 'package:miru_app/views/widgets/anilist_horizontal_list.dart';
-import 'package:miru_app/views/widgets/button.dart';
-import 'package:miru_app/views/widgets/card.dart';
-import 'package:miru_app/views/widgets/progress.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/data/providers/anilist_provider.dart';
-import 'package:miru_app/views/widgets/cache_network_image.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/controllers/tracking_page_controller.dart';
+import 'package:mediabox/views/widgets/anilist_horizontal_list.dart';
+import 'package:mediabox/views/widgets/button.dart';
+import 'package:mediabox/views/widgets/card.dart';
+import 'package:mediabox/views/widgets/progress.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/data/providers/anilist_provider.dart';
+import 'package:mediabox/views/widgets/cache_network_image.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 
 class AniListTrackingPage extends StatefulWidget {

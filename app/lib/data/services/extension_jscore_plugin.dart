@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter_js/flutter_js.dart';
-import 'package:miru_app/utils/log.dart';
+import 'package:mediabox/utils/log.dart';
 
 const dartBridgeMessageName = 'DART_BRIDGE_MESSAGE_NAME';
 

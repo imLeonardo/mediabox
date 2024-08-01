@@ -2,12 +2,12 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/views/pages/favorites_page.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/views/widgets/extension_item_card.dart';
-import 'package:miru_app/views/widgets/horizontal_list.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/views/pages/favorites_page.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/views/widgets/extension_item_card.dart';
+import 'package:mediabox/views/widgets/horizontal_list.dart';
 
 class HomeFavorites extends StatefulWidget {
   const HomeFavorites({

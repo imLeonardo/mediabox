@@ -1,9 +1,9 @@
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/material.dart';
-import 'package:miru_app/models/history.dart';
-import 'package:miru_app/views/widgets/home/home_resent_card.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/models/history.dart';
+import 'package:mediabox/views/widgets/home/home_resent_card.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 
 class HomeRecent extends StatefulWidget {
   const HomeRecent({

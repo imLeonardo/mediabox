@@ -1,5 +1,5 @@
-import 'package:miru_app/models/tmdb.dart' as tmdb_model;
-import 'package:miru_app/utils/miru_storage.dart';
+import 'package:mediabox/models/tmdb.dart' as tmdb_model;
+import 'package:mediabox/utils/miru_storage.dart';
 import 'package:tmdb_api/tmdb_api.dart';
 
 class TmdbApi {

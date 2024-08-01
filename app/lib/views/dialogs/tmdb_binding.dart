@@ -4,14 +4,14 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:flutter/material.dart';
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:get/get.dart';
-import 'package:miru_app/data/providers/tmdb_provider.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/views/widgets/grid_item_tile.dart';
-import 'package:miru_app/views/widgets/infinite_scroller.dart';
-import 'package:miru_app/views/widgets/messenger.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
-import 'package:miru_app/views/widgets/search_appbar.dart';
+import 'package:mediabox/data/providers/tmdb_provider.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/views/widgets/grid_item_tile.dart';
+import 'package:mediabox/views/widgets/infinite_scroller.dart';
+import 'package:mediabox/views/widgets/messenger.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
+import 'package:mediabox/views/widgets/search_appbar.dart';
 import 'package:tmdb_api/tmdb_api.dart';
 
 class TMDBBinding extends StatefulWidget {

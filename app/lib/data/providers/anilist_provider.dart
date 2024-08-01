@@ -1,12 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/controllers/tracking_page_controller.dart';
+import 'package:mediabox/controllers/tracking_page_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/utils/miru_storage.dart';
-import 'package:miru_app/utils/request.dart';
-import 'package:miru_app/views/widgets/messenger.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/utils/miru_storage.dart';
+import 'package:mediabox/utils/request.dart';
+import 'package:mediabox/views/widgets/messenger.dart';
 
 enum AnilistType { anime, manga }
 

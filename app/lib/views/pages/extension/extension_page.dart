@@ -4,16 +4,16 @@ import 'package:file_picker/file_picker.dart';
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/controllers/extension/extension_controller.dart';
-import 'package:miru_app/views/widgets/extension/extension_tile.dart';
-import 'package:miru_app/views/pages/extension/extension_repo_page.dart';
-import 'package:miru_app/router/router.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/utils/i18n.dart';
-import 'package:miru_app/utils/router.dart';
-import 'package:miru_app/views/widgets/button.dart';
-import 'package:miru_app/views/widgets/messenger.dart';
-import 'package:miru_app/views/widgets/platform_widget.dart';
+import 'package:mediabox/controllers/extension/extension_controller.dart';
+import 'package:mediabox/views/widgets/extension/extension_tile.dart';
+import 'package:mediabox/views/pages/extension/extension_repo_page.dart';
+import 'package:mediabox/router/router.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/utils/i18n.dart';
+import 'package:mediabox/utils/router.dart';
+import 'package:mediabox/views/widgets/button.dart';
+import 'package:mediabox/views/widgets/messenger.dart';
+import 'package:mediabox/views/widgets/platform_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ExtensionPage extends StatefulWidget {

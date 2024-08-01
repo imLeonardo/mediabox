@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:miru_app/router/router.dart';
+import 'package:mediabox/router/router.dart';
 
 class LayoutUtils {
   static bool? _isTablet;

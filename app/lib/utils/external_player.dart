@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:android_intent_plus/android_intent.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/utils/request.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/utils/request.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 

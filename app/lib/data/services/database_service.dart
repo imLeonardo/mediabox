@@ -2,9 +2,9 @@ import 'dart:convert';
 
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:isar/isar.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/utils/miru_storage.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/utils/miru_storage.dart';
 
 class DatabaseService {
   static final db = MiruStorage.database;

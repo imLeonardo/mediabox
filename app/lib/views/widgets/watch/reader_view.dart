@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:miru_app/utils/layout.dart';
-import 'package:miru_app/views/widgets/watch/control_panel_footer.dart';
-import 'package:miru_app/views/widgets/watch/control_panel_header.dart';
-import 'package:miru_app/controllers/watch/reader_controller.dart';
+import 'package:mediabox/utils/layout.dart';
+import 'package:mediabox/views/widgets/watch/control_panel_footer.dart';
+import 'package:mediabox/views/widgets/watch/control_panel_header.dart';
+import 'package:mediabox/controllers/watch/reader_controller.dart';
 
 class ReaderView<T extends ReaderController> extends StatelessWidget {
   const ReaderView(

@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/controllers/watch/reader_controller.dart';
-import 'package:miru_app/data/services/database_service.dart';
-import 'package:miru_app/utils/miru_storage.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/controllers/watch/reader_controller.dart';
+import 'package:mediabox/data/services/database_service.dart';
+import 'package:mediabox/utils/miru_storage.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class NovelController extends ReaderController<ExtensionFikushonWatch> {

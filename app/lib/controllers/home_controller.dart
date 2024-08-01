@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:miru_app/models/index.dart';
-import 'package:miru_app/data/services/database_service.dart';
+import 'package:mediabox/models/index.dart';
+import 'package:mediabox/data/services/database_service.dart';
 
 class HomePageController extends GetxController {
   final RxList<History> resents = <History>[].obs;

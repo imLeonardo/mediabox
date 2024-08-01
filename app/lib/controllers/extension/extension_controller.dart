@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:miru_app/utils/extension.dart';
-import 'package:miru_app/data/services/extension_service.dart';
+import 'package:mediabox/utils/extension.dart';
+import 'package:mediabox/data/services/extension_service.dart';
 
 class ExtensionPageController extends GetxController {
   RxMap<String, ExtensionService> runtimes = <String, ExtensionService>{}.obs;

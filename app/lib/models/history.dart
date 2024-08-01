@@ -1,5 +1,5 @@
 import 'package:isar/isar.dart';
-import 'package:miru_app/models/extension.dart';
+import 'package:mediabox/models/extension.dart';
 
 part 'history.g.dart';
 

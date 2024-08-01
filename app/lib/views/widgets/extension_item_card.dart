@@ -15,6 +15,7 @@ class ExtensionItemCard extends StatefulWidget {
     this.update,
     this.headers,
   });
+
   final String title;
   final String? cover;
   final String? update;

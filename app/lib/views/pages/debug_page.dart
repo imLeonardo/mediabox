@@ -36,6 +36,7 @@ class ExtensionDebugWindow extends StatefulWidget {
     super.key,
     required this.windowController,
   });
+
   final WindowController windowController;
 
   @override
@@ -52,6 +53,7 @@ class _ExtensionDebugWindowState extends State<ExtensionDebugWindow> {
     "Network",
     "Debug",
   ];
+
   // 当前选中的 tab
   String _currentTab = "Log";
 
@@ -262,6 +264,7 @@ class ConsoleView extends StatefulWidget {
     required this.logs,
     this.onClear,
   });
+
   final List<ExtensionLog> logs;
   final VoidCallback? onClear;
 
@@ -273,6 +276,7 @@ class _ConsoleViewState extends State<ConsoleView> {
   final ScrollController _controller = ScrollController();
 
   List<ExtensionLog> get logs => widget.logs;
+
   // 是否滚动到底部
   bool _isScrollToBottom = true;
 
@@ -366,6 +370,7 @@ class NetworkView extends StatefulWidget {
     required this.logs,
     required this.onClear,
   });
+
   final Map<String, ExtensionNetworkLog> logs;
   final VoidCallback? onClear;
 
@@ -375,6 +380,7 @@ class NetworkView extends StatefulWidget {
 
 class _NetworkViewState extends State<NetworkView> {
   String _selectLogKey = "";
+
   ExtensionNetworkLog? get _selectLog => widget.logs[_selectLogKey];
 
   @override
@@ -528,6 +534,7 @@ class DebugView extends StatefulWidget {
     super.key,
     required this.selectedExtension,
   });
+
   final Extension? selectedExtension;
 
   @override

@@ -16,6 +16,7 @@ class SearchAllExtSearch extends StatefulWidget {
     required this.runtimeList,
     required this.onClickMore,
   });
+
   final String kw;
   final List<SearchResult> runtimeList;
   final Function(int) onClickMore;

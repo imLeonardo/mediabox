@@ -45,14 +45,18 @@ class DetailPageController extends GetxController {
   final RxString aniListID = ''.obs;
   final Rx<TMDBDetail?> tmdb = Rx(null);
   final Rx<ExtensionService?> runtime = Rx(null);
+
   ExtensionType get type =>
       runtime.value?.extension.type ?? ExtensionType.bangumi;
+
   Extension? get extension => runtime.value?.extension;
 
   ExtensionDetail? get detail => data.value;
+
   set detail(ExtensionDetail? value) => data.value = value;
 
   TMDBDetail? get tmdbDetail => tmdb.value;
+
   set tmdbDetail(TMDBDetail? value) => tmdb.value = value;
 
   String? get backgorund {

@@ -17,17 +17,23 @@ class ExtensionSetting {
 
   @Index(name: 'package&key', composite: [CompositeIndex('key')], unique: true)
   late String package;
+
   // 标题
   late String title;
+
   // 键
   late String key;
+
   // 值
   String? value;
+
   // 默认值
   late String defaultValue;
+
   // 类型
   @Enumerated(EnumType.name)
   late ExtensionSettingType type;
+
   // 描述
   String? description;
 

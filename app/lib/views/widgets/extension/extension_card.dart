@@ -19,6 +19,7 @@ class ExtensionCard extends StatefulWidget {
     required this.nsfw,
     required this.type,
   });
+
   final String? icon;
   final String name;
   final String version;

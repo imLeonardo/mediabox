@@ -9,10 +9,12 @@ class SearchPageController extends GetxController {
   final search = ''.obs;
   final searchResultList = <SearchResult>[].obs;
   String _randomKey = "";
+
   int get finishCount =>
       searchResultList.where((element) => element.completed).length;
   bool needRefresh = true;
   bool isPageOpen = false;
+
   // 是否打开了这个页面
 
   @override
@@ -106,6 +108,7 @@ class SearchResult {
   List<ExtensionListItem>? result;
   String? error;
   bool completed;
+
   SearchResult({
     required this.runitme,
     this.error,

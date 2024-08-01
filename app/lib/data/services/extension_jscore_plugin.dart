@@ -13,6 +13,7 @@ class JsBridge {
   final Object? Function(Object? value)? toEncodable;
   static final Map<String, Future<dynamic> Function(dynamic message)>
       _handlers = {};
+
   JsBridge({
     required this.jsRuntime,
     this.toEncodable,

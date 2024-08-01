@@ -12,18 +12,21 @@ class SettingNumboxButton extends fluent.StatefulWidget {
     required this.button2text,
     required this.numberBoxvalue,
   });
+
   final Widget? icon;
   final String title;
   final String button1text;
   final String button2text;
   final void Function(double?)? onChanged;
   final double numberBoxvalue;
+
   @override
   fluent.State<SettingNumboxButton> createState() => _SettingsIntpuTileState();
 }
 
 class _SettingsIntpuTileState extends fluent.State<SettingNumboxButton> {
   bool buttonSwitch = false;
+
   Widget _buildDesktop(BuildContext context) {
     return fluent.Tooltip(
         message: widget.title,

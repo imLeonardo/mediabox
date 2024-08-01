@@ -15,6 +15,7 @@ class HomeFavorites extends StatefulWidget {
     required this.type,
     required this.data,
   });
+
   final ExtensionType type;
   final List<Favorite> data;
 

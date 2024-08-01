@@ -12,6 +12,7 @@ class VideoPlayerConten extends StatelessWidget {
     super.key,
     required this.tag,
   });
+
   final String tag;
 
   @override

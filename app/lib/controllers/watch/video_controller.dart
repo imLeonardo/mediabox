@@ -839,5 +839,6 @@ class VideoPlayerController extends GetxController {
 class Message {
   final Widget child;
   final Duration time;
+
   Message(this.child, {this.time = const Duration(seconds: 3)});
 }

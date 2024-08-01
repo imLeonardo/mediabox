@@ -9,6 +9,7 @@ class DateTileDialog extends StatefulWidget {
     required this.onChange,
     required this.onClear,
   });
+
   final String title;
   final DateTime? value;
   final Function(DateTime) onChange;

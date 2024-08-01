@@ -11,6 +11,7 @@ import 'package:miru_app/views/widgets/progress.dart';
 
 class FavoritesPage extends fluent.StatefulWidget {
   const FavoritesPage({super.key, required this.type});
+
   final ExtensionType type;
 
   @override

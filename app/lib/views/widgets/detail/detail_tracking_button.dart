@@ -18,6 +18,7 @@ class DetailTrackingButton extends StatefulWidget {
     super.key,
     required this.tag,
   });
+
   final String? tag;
 
   @override

@@ -13,6 +13,7 @@ class SettingsSwitchTile extends StatefulWidget {
     this.buildSubtitle,
     this.isCard = false,
   });
+
   final Widget? icon;
   final String title;
   final String Function()? buildSubtitle;

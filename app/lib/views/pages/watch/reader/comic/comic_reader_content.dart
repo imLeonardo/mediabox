@@ -15,6 +15,7 @@ import 'package:extended_image/extended_image.dart';
 
 class ComicReaderContent extends StatefulWidget {
   const ComicReaderContent(this.tag, {super.key});
+
   final String tag;
 
   @override

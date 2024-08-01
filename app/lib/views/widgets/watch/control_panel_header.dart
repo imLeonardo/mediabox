@@ -15,6 +15,7 @@ class ControlPanelHeader<T extends ReaderController> extends StatefulWidget {
     super.key,
     required this.buildSettings,
   });
+
   final String tag;
   final Widget Function(BuildContext context) buildSettings;
 

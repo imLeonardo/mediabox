@@ -10,6 +10,7 @@ class Cover extends StatelessWidget {
     this.noText = false,
     required this.headers,
   });
+
   final String? url;
   final String alt;
   final bool noText;

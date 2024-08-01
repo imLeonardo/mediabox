@@ -12,6 +12,7 @@ class SettingsTile extends StatefulWidget {
     this.onTap,
     this.isCard = false,
   });
+
   final Widget? icon;
   final String title;
   final String Function()? buildSubtitle;

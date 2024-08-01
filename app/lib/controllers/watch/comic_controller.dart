@@ -20,6 +20,7 @@ class ComicController extends ReaderController<ExtensionMangaWatch> {
     required super.cover,
     required super.anilistID,
   });
+
   Map<String, MangaReadMode> readmode = {
     'standard': MangaReadMode.standard,
     'rightToLeft': MangaReadMode.rightToLeft,
@@ -30,6 +31,7 @@ class ComicController extends ReaderController<ExtensionMangaWatch> {
   final readType = MangaReadMode.standard.obs;
 
   final currentScale = 1.0.obs;
+
   // MangaReadMode
   // 当前页码
   final currentPage = 0.obs;

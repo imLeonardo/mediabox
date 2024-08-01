@@ -10,6 +10,7 @@ class WebViewPage extends StatefulWidget {
     required this.extensionRuntime,
     required this.url,
   });
+
   final ExtensionService extensionRuntime;
   final String url;
 

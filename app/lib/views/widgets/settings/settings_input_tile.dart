@@ -15,6 +15,7 @@ class SettingsIntpuTile extends fluent.StatefulWidget {
     this.trailing = const Icon(Icons.chevron_right),
     this.isCard = false,
   });
+
   final Widget? icon;
   final String title;
   final String Function() buildSubtitle;

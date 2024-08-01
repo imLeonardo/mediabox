@@ -7,6 +7,7 @@ class BTServerApi {
   static final dio = Dio(BaseOptions(
     baseUrl: baseApi,
   ));
+
   static Future<String> getVersion() async {
     return (await dio.get<String>("/version")).data!;
   }

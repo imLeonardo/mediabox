@@ -26,6 +26,7 @@ class VideoPlayerSidebar extends StatefulWidget {
     super.key,
     required this.controller,
   });
+
   final VideoPlayerController controller;
 
   @override
@@ -151,6 +152,7 @@ class _SideBarSettings extends StatefulWidget {
   const _SideBarSettings({
     required this.controller,
   });
+
   final VideoPlayerController controller;
 
   @override
@@ -801,6 +803,7 @@ class _QualitySelector extends StatefulWidget {
   const _QualitySelector({
     required this.controller,
   });
+
   final VideoPlayerController controller;
 
   @override
@@ -833,6 +836,7 @@ class _TrackSelector extends StatelessWidget {
   const _TrackSelector({
     required this.controller,
   });
+
   final VideoPlayerController controller;
 
   @override
@@ -914,6 +918,7 @@ class _TrackSelector extends StatelessWidget {
 
 class _TorrentFiles extends StatelessWidget {
   const _TorrentFiles({required this.controller});
+
   final VideoPlayerController controller;
 
   @override

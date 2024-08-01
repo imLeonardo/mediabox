@@ -30,6 +30,7 @@ class DetailPage extends StatefulWidget {
     required this.package,
     this.tag,
   });
+
   final String url;
   final String package;
   final String? tag;

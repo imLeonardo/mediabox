@@ -8,6 +8,7 @@ import 'package:miru_app/views/widgets/platform_widget.dart';
 
 class ComicReaderSettings extends StatefulWidget {
   const ComicReaderSettings(this.tag, {super.key});
+
   final String tag;
 
   @override

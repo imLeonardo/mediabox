@@ -170,7 +170,9 @@ class BTServerUtils {
 
 class StartServerException implements Exception {
   final String message;
+
   StartServerException(this.message);
+
   @override
   String toString() {
     return message;

@@ -18,6 +18,7 @@ import 'package:volume_controller/volume_controller.dart';
 
 class VideoPlayerMobileControls extends StatefulWidget {
   const VideoPlayerMobileControls({super.key, required this.controller});
+
   final VideoPlayerController controller;
 
   @override
@@ -31,16 +32,22 @@ class _VideoPlayerMobileControlsState extends State<VideoPlayerMobileControls> {
   bool _showControls = true;
   double _currentBrightness = 0;
   double _currentVolume = 0;
+
   // 是否是调整亮度
   bool _isBrightness = false;
+
   // 是否正在调节
   bool _isAdjusting = false;
+
   // 滑动时的进度
   Duration _position = Duration.zero;
+
   // 是否左右滑动调整进度
   bool _isSeeking = false;
+
   // 是否长按加速
   bool _isLongPress = false;
+
   // 定时器
   Timer? _timer;
 
@@ -466,6 +473,7 @@ class _VideoPlayerMobileControlsState extends State<VideoPlayerMobileControls> {
 
 class _Header extends StatelessWidget {
   const _Header({required this.controller});
+
   final VideoPlayerController controller;
 
   @override
@@ -561,6 +569,7 @@ class _Header extends StatelessWidget {
 
 class _Footer extends StatelessWidget {
   const _Footer({required this.controller});
+
   final VideoPlayerController controller;
 
   @override
@@ -748,6 +757,7 @@ class _SeekBar extends StatefulWidget {
   const _SeekBar({
     required this.controller,
   });
+
   final VideoPlayerController controller;
 
   @override

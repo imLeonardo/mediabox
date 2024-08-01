@@ -14,6 +14,7 @@ import 'package:path/path.dart' as path;
 
 class ExtensionTile extends StatefulWidget {
   const ExtensionTile(this.extension, {super.key});
+
   final Extension extension;
 
   @override

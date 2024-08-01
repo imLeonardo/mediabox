@@ -7,6 +7,7 @@ class AnilistWebViewPage extends StatefulWidget {
     super.key,
     required this.url,
   });
+
   final String url;
 
   @override

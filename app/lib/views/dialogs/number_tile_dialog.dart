@@ -11,6 +11,7 @@ class NumberTileDialog extends StatefulWidget {
     this.max,
     this.min,
   });
+
   final String title;
   final num? value;
   final num? min;

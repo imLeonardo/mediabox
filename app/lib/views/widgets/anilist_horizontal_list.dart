@@ -17,6 +17,7 @@ class AnilistHorizontalList extends StatefulWidget {
     required this.anilistType,
     required this.data,
   });
+
   final AnilistType anilistType;
   final Map<dynamic, dynamic> data;
 

@@ -15,6 +15,7 @@ class DetailEpisodes extends StatefulWidget {
     super.key,
     this.tag,
   });
+
   final String? tag;
 
   @override
@@ -28,6 +29,7 @@ class _DetailEpisodesState extends State<DetailEpisodes> {
   late List<ExtensionEpisodeGroup> episodes = [];
   late String listMode = MiruStorage.getSetting(SettingKey.listMode);
   bool isRevered = false;
+
   Widget _buildAndroidEpisodes(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,

@@ -5,6 +5,7 @@ import 'package:miru_app/views/pages/watch/reader/comic/comic_reader_content.dar
 import 'package:miru_app/views/pages/watch/reader/comic/comic_reader_settings.dart';
 import 'package:miru_app/controllers/watch/comic_controller.dart';
 import 'package:miru_app/views/widgets/platform_widget.dart';
+
 // import 'package:miru_app/views/pages/watch/reader/comic/comic_zoom.dart';
 import 'package:miru_app/data/services/extension_service.dart';
 import 'package:miru_app/views/widgets/watch/reader_view.dart';

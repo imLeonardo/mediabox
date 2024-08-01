@@ -19,6 +19,7 @@ class TMDBBinding extends StatefulWidget {
     super.key,
     required this.title,
   });
+
   final String title;
 
   @override

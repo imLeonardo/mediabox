@@ -10,6 +10,7 @@ class HomeRecent extends StatefulWidget {
     super.key,
     required this.data,
   });
+
   final List<History> data;
 
   @override

@@ -6,6 +6,7 @@ class DetailAppbarTitle extends StatefulWidget {
     super.key,
     required this.controller,
   });
+
   final String text;
   final ScrollController controller;
 

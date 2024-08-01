@@ -256,6 +256,7 @@ class _AndroidMainPageState extends fluent.State<AndroidMainPage> {
 
 class _Destination {
   const _Destination(this.icon, this.selectedIcon, this.label);
+
   final IconData selectedIcon;
   final IconData icon;
   final String label;

@@ -8,6 +8,7 @@ class PlatformButton extends StatelessWidget {
     required this.child,
     this.onPressed,
   });
+
   final Widget child;
   final VoidCallback? onPressed;
 
@@ -34,6 +35,7 @@ class PlatformFilledButton extends StatelessWidget {
     required this.child,
     this.onPressed,
   });
+
   final Widget child;
   final VoidCallback? onPressed;
 
@@ -60,6 +62,7 @@ class PlatformTextButton extends StatelessWidget {
     required this.child,
     this.onPressed,
   });
+
   final Widget child;
   final VoidCallback? onPressed;
 
@@ -86,6 +89,7 @@ class PlatformIconButton extends StatelessWidget {
     required this.icon,
     this.onPressed,
   });
+
   final Widget icon;
   final VoidCallback? onPressed;
 

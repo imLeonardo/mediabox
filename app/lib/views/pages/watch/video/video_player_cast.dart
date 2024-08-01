@@ -9,6 +9,7 @@ class VideoPlayerCast extends StatefulWidget {
     super.key,
     this.onDeviceSelected,
   });
+
   final Function(DLNADevice device)? onDeviceSelected;
 
   @override

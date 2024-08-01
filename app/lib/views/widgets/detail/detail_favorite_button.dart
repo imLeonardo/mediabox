@@ -10,6 +10,7 @@ class DetailFavoriteButton extends StatefulWidget {
     super.key,
     this.tag,
   });
+
   final String? tag;
 
   @override

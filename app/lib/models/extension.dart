@@ -56,6 +56,7 @@ class ExtensionFilter {
     required this.defaultOption,
     required this.options,
   });
+
   final String title;
   final int min;
   final int max;
@@ -119,6 +120,7 @@ class ExtensionEpisodeGroup {
     required this.title,
     required this.urls,
   });
+
   final String title;
   final List<ExtensionEpisode> urls;
 
@@ -134,6 +136,7 @@ class ExtensionEpisode {
     required this.name,
     required this.url,
   });
+
   final String name;
   final String url;
 
@@ -152,6 +155,7 @@ class ExtensionBangumiWatch {
     this.headers,
     this.audioTrack,
   });
+
   final ExtensionWatchBangumiType type;
   final String url;
   final List<ExtensionBangumiWatchSubtitle>? subtitles;
@@ -169,6 +173,7 @@ class ExtensionBangumiWatchSubtitle {
   final String? language;
   final String title;
   final String url;
+
   ExtensionBangumiWatchSubtitle({
     required this.title,
     required this.url,
@@ -202,6 +207,7 @@ class ExtensionFikushonWatch {
   final List<String> content;
   final String title;
   final String? subtitle;
+
   ExtensionFikushonWatch({
     required this.content,
     required this.title,

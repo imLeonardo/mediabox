@@ -24,6 +24,7 @@ class ExtensionSearcherPage extends fluent.StatefulWidget {
     required this.package,
     this.keyWord,
   });
+
   final String package;
   final String? keyWord;
 
@@ -40,6 +41,7 @@ class _ExtensionSearcherPageState extends fluent.State<ExtensionSearcherPage> {
   bool _isLoading = true;
   final EasyRefreshController _easyRefreshController = EasyRefreshController();
   Map<String, ExtensionFilter>? _filters;
+
   // 初始化一开始选择的选项
   Map<String, List<String>> _selectedFilters = {};
 
@@ -384,6 +386,7 @@ class _ExtensionFilterWidget extends StatefulWidget {
     required this.onSelectFilter,
     required this.filters,
   });
+
   final ExtensionService runtime;
   final Map<String, ExtensionFilter> filters;
   final Map<String, List<String>> selectedFilters;
@@ -399,6 +402,7 @@ class _ExtensionFilterWidget extends StatefulWidget {
 class _ExtensionFilterWidgetState extends State<_ExtensionFilterWidget> {
   late final ExtensionService _runtime = widget.runtime;
   late Map<String, ExtensionFilter> _filters = widget.filters;
+
   // 初始化一开始选择的选项
   late Map<String, List<String>> _selectedFilters = widget.selectedFilters;
 

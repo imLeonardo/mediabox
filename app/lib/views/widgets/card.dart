@@ -7,6 +7,7 @@ class PlatformCard extends StatelessWidget {
     super.key,
     required this.child,
   });
+
   final Widget child;
 
   Widget _buildAndroid(BuildContext context) {

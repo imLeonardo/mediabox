@@ -24,6 +24,7 @@ class _DetailAppbarflexibleSpaceState extends State<DetailAppbarflexibleSpace> {
   late DetailPageController c = Get.find(tag: widget.tag);
 
   double _offset = 1;
+
   // static const anlistExtensionMap = <ExtensionType, String>{
   //   ExtensionType.bangumi: "ANIME",
   //   ExtensionType.manga: "MANGA",

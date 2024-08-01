@@ -11,7 +11,7 @@ class HorizontalList extends StatefulWidget {
     this.itemCount,
     this.itemBuilder,
     this.contentBuilder,
-  })  : assert(
+  }) : assert(
           (itemCount != null && itemBuilder != null) || contentBuilder != null,
           "itemCount and itemBuilder or contentBuilder must not be null",
         );
@@ -136,6 +136,7 @@ class _HorizontalListState extends State<HorizontalList> {
 
 class HorizontalTitle extends StatefulWidget {
   const HorizontalTitle(this.text, {super.key, required this.onClick});
+
   final String text;
   final Function() onClick;
 

@@ -16,6 +16,7 @@ class SettingsExpanderTile extends StatelessWidget {
     this.open = false,
     this.noPage = false,
   });
+
   final IconData? icon;
   final IconData? androidIcon;
   final Widget? leading;
@@ -23,6 +24,7 @@ class SettingsExpanderTile extends StatelessWidget {
   final String subTitle;
   final bool open;
   final Widget content;
+
   // 不使用二级页面
   final bool noPage;
 

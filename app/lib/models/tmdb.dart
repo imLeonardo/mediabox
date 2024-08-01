@@ -30,6 +30,7 @@ class TMDBDetail {
     required this.runtime,
     required this.originalTitle,
   });
+
   final int id;
   final String mediaType;
   final String title;
@@ -59,6 +60,7 @@ class TMDBCast {
     this.profilePath,
     required this.character,
   });
+
   final int id;
   final String name;
   String? profilePath;

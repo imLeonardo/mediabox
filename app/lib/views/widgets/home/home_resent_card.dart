@@ -24,6 +24,7 @@ class HomeRecentCard extends StatefulWidget {
     super.key,
     required this.history,
   });
+
   final History history;
 
   @override
@@ -35,6 +36,7 @@ class _HomeRecentCardState extends State<HomeRecentCard> {
   String _update = "";
   final contextController = fluent.FlyoutController();
   final contextAttachKey = GlobalKey();
+
   // 主要颜色
   Color? primaryColor;
   late bool noCover = widget.history.cover == null;

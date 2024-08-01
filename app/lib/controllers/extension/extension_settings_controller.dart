@@ -6,6 +6,7 @@ import 'package:miru_app/data/services/extension_service.dart';
 
 class ExtensionSettingsPageController extends GetxController {
   ExtensionSettingsPageController(this.package);
+
   final String package;
 
   final Rx<ExtensionService?> runtime = Rx(null);

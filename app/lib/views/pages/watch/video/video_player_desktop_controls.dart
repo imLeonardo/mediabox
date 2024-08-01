@@ -17,6 +17,7 @@ class VideoPlayerDesktopControls extends StatefulWidget {
     super.key,
     required this.controller,
   });
+
   final VideoPlayerController controller;
 
   @override
@@ -273,6 +274,7 @@ class _Header extends StatefulWidget {
     required this.episode,
     required this.onClose,
   });
+
   final String title;
   final String episode;
   final VoidCallback onClose;
@@ -374,6 +376,7 @@ class _Footer extends StatelessWidget {
   const _Footer({
     required this.controller,
   });
+
   final VideoPlayerController controller;
 
   @override
@@ -590,6 +593,7 @@ class _Volume extends StatefulWidget {
     required this.value,
     required this.onVolumeChanged,
   });
+
   final double value;
   final Function(double value) onVolumeChanged;
 
@@ -600,6 +604,7 @@ class _Volume extends StatefulWidget {
 class _VolumeState extends State<_Volume> {
   final _controller = FlyoutController();
   final _volume = 0.0.obs;
+
   @override
   void initState() {
     super.initState();
@@ -1120,6 +1125,7 @@ class _SeekBar extends StatefulWidget {
   const _SeekBar({
     required this.controller,
   });
+
   final VideoPlayerController controller;
 
   @override

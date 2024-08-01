@@ -32,6 +32,7 @@ class ReaderController<T> extends GetxController {
   final error = ''.obs;
   final isShowControlPanel = false.obs;
   late final index = playIndex.obs;
+
   get cuurentPlayUrl => playList[index.value].url;
   Timer? _timer;
 

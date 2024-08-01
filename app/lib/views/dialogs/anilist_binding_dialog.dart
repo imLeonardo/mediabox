@@ -19,6 +19,7 @@ class AnilistBindingDialog extends StatefulWidget {
     required this.title,
     required this.type,
   });
+
   final String title;
   final AnilistType type;
 

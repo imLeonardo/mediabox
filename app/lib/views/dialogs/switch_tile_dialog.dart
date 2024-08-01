@@ -10,6 +10,7 @@ class SwitchTileDialog<T> extends StatefulWidget {
     required this.onSelected,
     required this.onClear,
   });
+
   final String title;
   final T? value;
   final Map<String, T> buildOptions;

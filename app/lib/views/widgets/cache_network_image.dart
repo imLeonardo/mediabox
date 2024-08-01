@@ -25,6 +25,7 @@ class CacheNetWorkImagePic extends StatelessWidget {
     this.canFullScreen = false,
     this.mode = ExtendedImageMode.none,
   });
+
   final String url;
   final BoxFit fit;
   final double? width;
@@ -96,6 +97,7 @@ class _ThumnailPage extends StatefulWidget {
     required this.url,
     required this.headers,
   });
+
   final String url;
   final Map<String, String>? headers;
 

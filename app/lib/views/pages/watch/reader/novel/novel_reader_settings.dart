@@ -7,6 +7,7 @@ import 'package:miru_app/views/widgets/platform_widget.dart';
 
 class NovelReaderSettings extends StatefulWidget {
   const NovelReaderSettings(this.tag, {super.key});
+
   final String tag;
 
   @override

@@ -4,6 +4,7 @@ import 'package:miru_app/views/widgets/cache_network_image.dart';
 
 class ExtensionLogTile extends StatelessWidget {
   const ExtensionLogTile({super.key, required this.log});
+
   final ExtensionLog log;
 
   @override

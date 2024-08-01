@@ -17,6 +17,7 @@ class WatchPage extends StatelessWidget {
     required this.anilistID,
     this.cover,
   });
+
   final List<ExtensionEpisode> playList;
   final int playerIndex;
   final String title;

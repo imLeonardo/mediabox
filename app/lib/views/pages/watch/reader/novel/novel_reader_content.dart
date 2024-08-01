@@ -10,6 +10,7 @@ import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class NovelReaderContent extends StatefulWidget {
   const NovelReaderContent(this.tag, {super.key});
+
   final String tag;
 
   @override

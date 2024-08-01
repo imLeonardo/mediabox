@@ -11,6 +11,7 @@ class PlayList extends fluent.StatelessWidget {
     required this.selectIndex,
     required this.onChange,
   });
+
   final String title;
   final List<String> list;
   final int selectIndex;
@@ -71,6 +72,7 @@ class PlaylistAndroidTile extends StatelessWidget {
     required this.onTap,
     required this.selected,
   });
+
   final String title;
   final Function() onTap;
   final bool selected;

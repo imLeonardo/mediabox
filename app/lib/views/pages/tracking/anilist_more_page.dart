@@ -15,6 +15,7 @@ import 'package:miru_app/views/widgets/progress.dart';
 
 class AnilistMorePage extends StatefulWidget {
   const AnilistMorePage({super.key, required this.anilistType});
+
   final AnilistType anilistType;
 
   @override

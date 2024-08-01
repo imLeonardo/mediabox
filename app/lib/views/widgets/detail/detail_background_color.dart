@@ -5,6 +5,7 @@ class DetailBackgroundColor extends StatefulWidget {
     super.key,
     required this.controller,
   });
+
   final ScrollController controller;
 
   @override
@@ -13,6 +14,7 @@ class DetailBackgroundColor extends StatefulWidget {
 
 class _DetailBackgroundColorState extends State<DetailBackgroundColor> {
   double scrollOffset = 0;
+
   @override
   void initState() {
     widget.controller.addListener(() {

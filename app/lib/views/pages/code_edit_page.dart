@@ -13,7 +13,9 @@ class CodeEditPage extends StatefulWidget {
     required this.extension,
     super.key,
   });
+
   final Extension extension;
+
   @override
   State<CodeEditPage> createState() => _CodeEditPageState();
 }

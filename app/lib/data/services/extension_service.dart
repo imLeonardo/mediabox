@@ -29,6 +29,7 @@ class ExtensionService {
   static Map<dynamic, dynamic> evalMap = {};
   String className = '';
   bool isinit = false;
+
   initRuntime(Extension ext) async {
     extension = ext;
     className = extension.package.replaceAll('.', '');

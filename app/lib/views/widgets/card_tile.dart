@@ -8,6 +8,7 @@ class CardTile extends StatelessWidget {
     this.trailing,
     this.leading,
   });
+
   final String title;
   final Widget? leading;
   final Widget? trailing;

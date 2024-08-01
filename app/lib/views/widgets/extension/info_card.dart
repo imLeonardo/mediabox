@@ -8,6 +8,7 @@ class InfoCard extends StatelessWidget {
     required this.title,
     required this.content,
   });
+
   final IconData icon;
   final String title;
   final String content;

@@ -11,6 +11,7 @@ class GridItemTile extends StatefulWidget {
     this.onTap,
     this.headers,
   });
+
   final String title;
   final String? cover;
   final String? subtitle;

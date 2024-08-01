@@ -12,6 +12,7 @@ class ReaderView<T extends ReaderController> extends StatelessWidget {
     required this.content,
     required this.buildSettings,
   });
+
   final String tag;
   final Widget content;
   final Widget Function(BuildContext context) buildSettings;

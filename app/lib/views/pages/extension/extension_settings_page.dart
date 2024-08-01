@@ -28,6 +28,7 @@ class ExtensionSettingsPage extends StatefulWidget {
     super.key,
     required this.package,
   });
+
   final String package;
 
   @override

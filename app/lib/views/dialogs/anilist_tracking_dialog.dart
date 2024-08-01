@@ -18,6 +18,7 @@ class AnilistTrackingDialog extends StatefulWidget {
     required this.anilistType,
     required this.tag,
   });
+
   final AnilistType anilistType;
   final String? tag;
 

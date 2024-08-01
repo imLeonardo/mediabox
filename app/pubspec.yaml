@@ -1,7 +1,7 @@
-name: miru_app
-description: A new Flutter project.
+name: mediabox
+description: A media box.
 publish_to: "none"
-version: 1.8.1+39
+version: 0.0.1
 
 environment:
   sdk: ">=3.0.3 <4.0.0"
